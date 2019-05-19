@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./nav/dropdown.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="nav">
+        <div class="shortcut">
+          <div class="location">
+            <img src="./image/local.jpg" alt="" />
+            <span class="ui-areamini-text" data-id="27" title="陕西">陕西</span>
+          </div>
+          <div class="province">
+            <div>
+              <ul class="province-list"></ul>
+            </div>
+            <div class="border"></div>
+            <div class="version">
+              <p>地区专享版本</p>
+              <p>中国港澳</p>
+            </div>
+            <div class="border"></div>
+            <div></div>
+          </div>
+          <ul class="nav-right">
+            <li>
+              你好,请登陆
+              <a href="#">免费登陆</a>
+            </li>
+            <li></li>
+            <li>
+              <a href="#">我的订单</a>
+            </li>
+            <li></li>
+            <li id="myJD">
+              <!-- <a href="#">我的京东</a>
+                        <div class="dropdown">
+                            <dl>
+                                <dd>待处理订单
+                                </dd>
+                                <dd>返修退换货
+                                </dd>
+                                <dd> 降价商品
+                                </dd>
+                                <dd> 消息
+                                </dd>
+                                <dd>我的问答
+                                </dd>
+                                <dd>我的关注</dd>
+                            </dl>
+                            <dl>
+                                <dd>
+                                    我的京豆
+                                </dd>
+                                <dd>
+                                    我的白条
+                                </dd>
+                                <dd>我的优惠券</dd>
+                                <dd>
+                                    我的理财
+                                </dd>
+                            </dl>
+                        </div> -->
+            </li>
+            <li></li>
+            <li>
+              京东会员
+            </li>
+            <li></li>
+            <li id="procurement"></li>
+            <li></li>
+            <li id="service"></li>
+            <li></li>
+            <li id="bar-navs"></li>
+            <li></li>
+            <li>
+              手机京东
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="search-bar">
+        <div class="logo"></div>
+        <div class="search">
+          <div class="form">
+            <input type="text" placeholder="手机" class="search-inp" />
+            <span class="photot-search-btn"></span>
+            <button class="search-submit">
+              搜索
+            </button>
+            <div class="hotwords">
+              <ul>
+                <li class="active">鲜花限时达</li>
+                <li>爱有鲜意</li>
+                <li>每99减50</li>
+                <li>超市元宵</li>
+                <li>Apple</li>
+                <li>情人节</li>
+                <li>高端礼盒</li>
+                <li>手机好礼</li>
+                <li>情侣礼物</li>
+              </ul>
+            </div>
+            <div id="shelper">
+              <!-- <ul>
+                            <li>
+                                <a href="#">xxxx</a>
+                                <span>约1231234个</span>
+                            </li>
+                            <li><a href="#">xdddd</a>
+                            <span>123</span>
+                            </li>
+                        </ul> -->
+            </div>
+          </div>
+          <div class="settle">
+            <a href="">我的购物车</a>
+          </div>
+          <div class="nav-items">
+            <ul>
+              <li>秒杀</li>
+              <li>优惠券</li>
+              <li>PLUS会员</li>
+              <li>闪购</li>
+            </ul>
+            <div class="spacer"></div>
+            <ul>
+              <li>拍卖</li>
+              <li>京东时尚</li>
+              <li>京东超市</li>
+              <li>京东生鲜</li>
+            </ul>
+            <div class="spacer"></div>
+            <ul>
+              <li>海囤全球</li>
+              <li>京东金融</li>
+            </ul>
+          </div>
+          <div class="treasure"></div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="fs-1">
+        <!-- 左侧商品列表区 -->
+        <ul id="menu-list">
+          <!-- <li>
+                    <a href="#">家用电器</a>
+                </li>
+                <li>
+                    <a href="#">手机运营商</a>/
+                    <a href="#">数码</a>
+                </li> -->
+        </ul>
+        <!-- 左侧商品列表悬浮区，默认隐藏 -->
+        <div id="show-content"></div>
+      </div>
+      <div class="fs-2">
+        <div class="slider" id="slider"></div>
+      </div>
+      <div class="fs-3">
+        <div class="pic1">
+          <img
+            src="http://img13.360buyimg.com/babel/s190x150_jfs/t1/19043/20/6411/88764/5c52ca90E416a2b30/a2c788ffb7b6f594.jpg!q90!cc_190x150"
+            alt=""
+          />
+        </div>
+        <div class="pic2">
+          <img
+            src="http://img13.360buyimg.com/babel/s190x150_jfs/t1/8720/29/14385/90515/5c55543eE96ef1342/b1d41f1e674d8150.jpg!q90!cc_190x150"
+            alt=""
+          />
+        </div>
+        <div class="pic3">
+          <img
+            src="http://img1.360buyimg.com/pop/s190x150_jfs/t1/3673/36/1713/35246/5b94df08E4ec969cf/48350d97816412f1.jpg!q90!cc_190x150"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="fs-4">
+        <div class="j-user">
+          <div class="user-inner">
+            <div class="user-avatar">
+              <a href="#">
+                <img
+                  src="http://misc.360buyimg.com/mtd/pc/common/img/no_login.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="user-show">
+              <p>Hi~欢迎来到京东！</p>
+              <p>
+                <a href="#" class="btn">登陆</a>
+                <a href="#" class="btn">注册</a>
+              </p>
+            </div>
+            <div class="user-profit">
+              <a href="#" class="profit-btn">新人福利</a>
+              <a href="#" class="profit-btn plus">PLUS会员</a>
+            </div>
+          </div>
+        </div>
+        <div class="j-news">
+          <div class="news-hd">
+            <h5 class="title">京东快报</h5>
+            <a href="#" class="more">更多 ></a>
+          </div>
+          <ul class="news-list">
+            <li class="news-item">
+              <a href="#">
+                <span class="news-tag">公告</span>
+                2019年春节物流服务公告
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="#">
+                <span class="news-tag news-item0">公告</span>
+                2019年春节物流服务公告
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="#">
+                <span class="news-tag news-item1">公告</span>
+                2019年春节物流服务公告
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="#">
+                <span class="news-tag news-item0">公告</span>
+                2019年春节物流服务公告
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="j-services">
+          <div class="service-entry">
+            <ul>
+              <li class="service-item service-frame">
+                <a href="#">
+                  <i class="huafei"></i>
+                  <span>话费</span>
+                </a>
+              </li>
+              <li class="service-item service-frame">
+                <a href="#"> <i class="jipiao"></i><span>机票</span> </a>
+              </li>
+              <li class="service-item service-frame">
+                <a href="#"> <i class="jiudian"></i><span>酒店</span> </a>
+              </li>
+              <li class="service-item service-frame">
+                <a href="#"> <i class="game"></i><span>游戏</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="qiyegou"></i><span>企业购</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="jiayouka"></i><span>加油卡</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="dianying"></i><span>电影票</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="huoche"></i><span>火车票</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="zhongchou"></i><span>众筹</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="licai"></i><span>理财</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="lipinka"></i><span>礼品卡</span> </a>
+              </li>
+              <li class="service-item">
+                <a href="#"> <i class="baitiao"></i><span>白条 </span> </a>
+              </li>
+            </ul>
+          </div>
+          <div class="service-pop">
+            <div class="close">x</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <script src="./jquery-3.3.1.js"></script>
+    <script src="./nav/dropdown.js"></script>
+    <script src="./swiper/index.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
